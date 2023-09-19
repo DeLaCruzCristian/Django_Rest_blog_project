@@ -170,7 +170,10 @@ CORS_ORIGIN_WHITELIST = (
     "http://localhost:8000",
 )
 
-CSRF_TRUSTED_ORIGINS = ["http://localhost:3000"]
+CSRF_TRUSTED_ORIGINS = [
+    "http://localhost:3000",
+    "https://djangorestblogproject-production.up.railway.app",
+]
 
 
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
